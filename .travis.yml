@@ -1,3 +1,6 @@
 language: ruby
 rvm:
-  - jruby-d19 # JRuby in 1.9 mode
+  - jruby # JRuby in 1.9 mode
+env:
+  - JRUBY_OPTS="--2.0 $JRUBY_OPTS"
+
