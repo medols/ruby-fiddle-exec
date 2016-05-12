@@ -6,6 +6,7 @@ gem "rake", "~> 0.9.2"
 gem "sinatra"
 gem "rack-timeout"
 gem "jruby_sandbox", github: "jwo/jruby-sandbox", require: "sandbox"
+gem "fresh-mc"
 gem 'pry'
 gem 'puma'
 gem 'rabl'

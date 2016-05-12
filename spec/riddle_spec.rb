@@ -18,6 +18,10 @@ EORUBY
     subject.execute("1+1").result.should eq(2)
   end
 
+  it "should give me the result" do
+    subject.execute("proc{4}*4").result.should eq([4, 4, 4, 4])
+  end
+
   it "should capture the output in an array of lines" do
     subject.execute("puts 'oh hai'; puts 'yo there'")
     subject.output.should eq(["oh hai", "yo there"])
