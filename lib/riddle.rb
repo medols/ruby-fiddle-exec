@@ -20,11 +20,11 @@ class Riddle
   def safe_evaluation(code)
     sand = Sandbox.safe
 
-    sand.eval("require 'rubygems/commands/install_command';")
-    sand.eval("cmd = Gem::Commands::InstallCommand.new;")
-    sand.eval("cmd.handle_options ['fresh-mc'];")
-    sand.eval("cmd.execute;")
-    sand.eval("require 'fresh-mc'")
+#    sand.eval("require 'rubygems/commands/install_command';")
+#    sand.eval("cmd = Gem::Commands::InstallCommand.new;")
+#    sand.eval("cmd.handle_options ['fresh-mc'];")
+#    sand.eval("cmd.execute;")
+#    sand.eval("require 'fresh-mc'")
 
     sand.activate!
     sand.eval_with_result(code)
