@@ -1,5 +1,4 @@
-require_relative "../lib/riddle"
-
+require File.expand_path('../spec_helper', __FILE__)
 
 describe Riddle do
 
