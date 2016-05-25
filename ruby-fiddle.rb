@@ -11,7 +11,7 @@ end
 configure { set :server, :puma }
 
 get '/' do
-  redirect "http://rubyfiddle.com"
+  redirect "http://fresh-mc.herokuapp.com"
 end
 
 post "/" do
