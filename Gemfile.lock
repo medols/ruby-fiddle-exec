@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/jwo/jruby-sandbox.git
-  revision: 1ca48986ad4eeb8b10d4157c4ecc2f749cf5cb46
+  remote: git://github.com/medols/jruby-sandbox.git
+  revision: 1ab658257979ca74c230f83b489cfe2b1e58c9b2
   specs:
     jruby_sandbox (0.1.5)
       fakefs
@@ -13,7 +13,7 @@ GEM
       multi_json (~> 1.0)
     coderay (1.0.8)
     diff-lcs (1.1.3)
-    fakefs (0.5.2)
+    fakefs (0.8.1)
     fresh-mc (0.2.120)
       rubinius-actor
     i18n (0.6.1)
@@ -72,4 +72,4 @@ RUBY VERSION
    ruby 2.0.0p195 (jruby 1.7.13)
 
 BUNDLED WITH
-   1.11.2
+   1.12.3
