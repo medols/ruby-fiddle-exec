@@ -25,6 +25,10 @@ class Riddle
 #    sand.eval("cmd.handle_options ['fresh-mc'];")
 #    sand.eval("cmd.execute;")
     sand.eval("require 'stringio'")
+    sand.eval("require 'rspec/core'")
+    sand.eval("require 'rspec/expectations'")
+    sand.eval("require 'rspec/mocks'")
+    sand.eval("require 'rspec/version'")
     sand.eval("require 'rspec'")
     sand.eval("require 'fresh-mc'")
     sand.activate!
