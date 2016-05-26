@@ -24,6 +24,7 @@ class Riddle
 #    sand.eval("cmd = Gem::Commands::InstallCommand.new;")
 #    sand.eval("cmd.handle_options ['fresh-mc'];")
 #    sand.eval("cmd.execute;")
+    sand.eval("require 'rspec'")
     sand.eval("require 'fresh-mc'")
     sand.activate!
     sand.eval_with_result(code)
