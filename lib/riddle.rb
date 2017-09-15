@@ -24,7 +24,6 @@ class Riddle
 #    sand.eval("cmd = Gem::Commands::InstallCommand.new;")
 #    sand.eval("cmd.handle_options ['fresh-mc'];")
 #    sand.eval("cmd.execute;")
-#    sand.eval("require 'benchmark/ips'")
     sand.eval("require 'stringio'")
     sand.eval("require 'rspec/core'")
     sand.eval("require 'rspec/expectations'")
@@ -32,6 +31,7 @@ class Riddle
     sand.eval("require 'rspec/version'")
     sand.eval("require 'rspec'")
     sand.eval("require 'fresh-mc'")
+    sand.eval("require 'benchmark/ips'")
     sand.activate!
     sand.eval_with_result(code)
   rescue Sandbox::SandboxException => sandee
