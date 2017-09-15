@@ -32,7 +32,7 @@ class Riddle
     sand.eval("require 'rspec'")
     sand.eval("require 'fresh-mc'")
     sand.eval("require 'benchmark/ips'")
-    sand.eval("require 'benchmark/ips/stats'")
+#    sand.eval("require 'benchmark/ips/stats'")
     sand.activate!
     sand.eval_with_result(code)
   rescue Sandbox::SandboxException => sandee
